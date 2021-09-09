@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+:root{
+    --header-font-size:xx-large;
+}
+.header{
+    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.showcase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+.showcase p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+}
+.mouse-click{
+    margin-top: 5rem;
+    cursor: pointer;
+}
+
+/* ABOUT US */
+.about{
+    min-height: 350px;
+}
