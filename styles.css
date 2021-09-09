@@ -38,5 +38,17 @@
 
 /* ABOUT US */
 .about{
-    min-height: 350px;
+    margin: 2rem auto;
+    min-height: 150px;
+}
+.about h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.about div{
+    display: flex;
+    flex-direction: column;
+}
+.about div p{
+    text-align: center;
 }
