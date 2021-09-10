@@ -91,16 +91,34 @@
 
 }
 .form-container{
-  width: 80%;
+  
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.contact div h2 {
+.form-container > form > input[type='text']{
+    outline: none;
+    border-radius: 3px;
+    font-size: 17px;
+    line-height: 2;
+    border-color: #fff;
+    background:transparent;
+}
+.form-container > form > textarea{
+    margin-top: 2rem;
+    width: 100%;
+    outline: none;
+    border-radius: 3px;
+    font-size: 17px;
+    border-color: #fff;
+    background:transparent;
+}
+.form-container > form ::placeholder{
+    color: #fff;
+    padding-left: 1rem;
+}
+.contact h2 {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    height: 400px;
     color: whitesmoke;
     padding: 2rem;
 }
