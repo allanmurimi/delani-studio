@@ -54,7 +54,7 @@
 }
 /* services */
 .services{
-    min-height: 180px;
+    min-height: 200px;
     background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg");
     background-size: cover;
     color: whitesmoke;
@@ -73,12 +73,51 @@
     padding: 1rem;    
 }
 .portfolio {
-    display: flex;
-    justify-content:right;
-    justify-content: space-evenly;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap: 1.5rem;
     margin: 1rem auto;
-    height: 100px;
+}
+.portfolio div img {
+    height: 205px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
+    background-size: cover;
 
+}
+.form-container{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact div h2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    color: whitesmoke;
+    padding: 2rem;
+}
 
+/* Responsive mobile */
+@media screen  and (max-width: 576px) {
+    .design {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 1rem;    
+    }
+    .portfolio {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+        gap: 1.5rem;
+        margin: 1rem auto;
+    }
 }
