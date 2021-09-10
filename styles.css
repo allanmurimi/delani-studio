@@ -71,5 +71,14 @@
     display: flex;
     justify-content: space-evenly;
     padding: 1rem;    
+}
+.portfolio {
+    display: flex;
+    justify-content:right;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 1rem auto;
+    height: 100px;
+
 
 }
