@@ -7,7 +7,7 @@ a highlight about Delani Studio
 css; bootstrap; javascript & html
 ## Technologies Used
 css; bootstrap; javascript & html
-## Support and contact details
+## Support & Contact Details
 github.com/allanmurimi or 
 **+254 712 2-- 2--**
 ### License
