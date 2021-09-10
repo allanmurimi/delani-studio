@@ -67,6 +67,17 @@
     text-align: center;
     margin: 2rem auto;
 }
+.what-img  {
+    width: 342px;
+    cursor: pointer;
+}
+.what-content-1,
+.what-content-2,
+.what-content-3{
+    width: 342px;
+    display: none;
+    cursor: pointer;
+}
 .design {
     display: flex;
     justify-content: space-evenly;
@@ -88,6 +99,7 @@
     align-items: center;
     background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
     background-size: cover;
+    min-height: 500px;
 
 }
 .form-container{
@@ -121,6 +133,16 @@
     text-align: center;
     color: whitesmoke;
     padding: 2rem;
+}
+footer{
+    text-align: center;
+    font-weight: bolder;
+
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
 }
 
 /* Responsive mobile */
