@@ -52,6 +52,7 @@
 .about div p{
     text-align: center;
 }
+/* services */
 .services{
     min-height: 180px;
     background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg");
@@ -59,4 +60,16 @@
     color: whitesmoke;
     text-align: center;
     padding: 3rem 0;
+}
+/* what we do */
+.what{
+    min-height:500px;
+    text-align: center;
+    margin: 2rem auto;
+}
+.design {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;    
+
 }
