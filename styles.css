@@ -1,163 +1,179 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-*{
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
-:root{
-    --header-font-size:xx-large;
+:root {
+  --header-font-size: xx-large;
 }
-.header{
-    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg");
-    height: 100vh;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.header {
+  background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.showcase{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 1.2rem;
-    font-weight: bolder;
-    color: whitesmoke;
+.showcase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: whitesmoke;
 }
-.showcase p{
-    font-size: 1rem;
-    font-weight: 500;
-    font-style: italic;
-    text-decoration: underline;
+.showcase p {
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: underline;
 }
-.mouse-click{
-    margin-top: 5rem;
-    cursor: pointer;
+.mouse-click {
+  margin-top: 5rem;
+  cursor: pointer;
 }
 
 /* ABOUT US */
-.about{
-    margin: 2rem auto;
-    min-height: 150px;
+.about {
+  margin: 2rem auto;
+  min-height: 150px;
 }
-.about h2{
-    font-size: 1.5rem;
-    text-align: center;
+.about h2 {
+  font-size: 1.5rem;
+  text-align: center;
 }
-.about div{
-    display: flex;
-    flex-direction: column;
+.about div {
+  display: flex;
+  flex-direction: column;
 }
-.about div p{
-    text-align: center;
+.about div p {
+  text-align: center;
 }
 /* services */
-.services{
-    min-height: 200px;
-    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg");
-    background-size: cover;
-    color: whitesmoke;
-    text-align: center;
-    padding: 3rem 0;
+.services {
+  min-height: 200px;
+  background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg");
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center;
+  padding: 3rem 0;
 }
 /* what we do */
-.what{
-    min-height:500px;
-    text-align: center;
-    margin: 2rem auto;
+.what {
+  min-height: 500px;
+  text-align: center;
+  margin: 2rem auto;
 }
-.what-img  {
-    width: 342px;
-    cursor: pointer;
+.what-img {
+  width: 342px;
+  transition: .5s ease;
+  cursor: pointer;
 }
 .what-content-1,
 .what-content-2,
-.what-content-3{
-    width: 342px;
-    display: none;
-    cursor: pointer;
+.what-content-3 {
+  width: 342px;
+  display: none;
+  cursor: pointer;
 }
 .design {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1rem;    
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
 }
 .portfolio {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    place-items: center;
-    gap: 1.5rem;
-    margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  gap: 1.5rem;
+  margin: 1rem auto;
 }
 .portfolio div img {
-    height: 205px;
+  height: 205px;
+}
+.portfolio-img {
+  position: relative;
+}
+.content-img {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  display: none;
+  width: 100px;
+  height: 100px;
+  transition: .5s ease-in;
+  border: 3px solid #fff;
+}
+.content-img span {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
 }
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
-    background-size: cover;
-    min-height: 500px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
+  background-size: cover;
+  min-height: 500px;
 }
-.form-container{
-  
+.form-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.form-container > form > input[type='text']{
-    outline: none;
-    border-radius: 3px;
-    font-size: 17px;
-    line-height: 2;
-    border-color: #fff;
-    background:transparent;
+.form-container > form > input[type="text"] {
+  outline: none;
+  border-radius: 3px;
+  font-size: 17px;
+  line-height: 2;
+  border-color: #fff;
+  background: transparent;
 }
-.form-container > form > textarea{
-    margin-top: 2rem;
-    width: 100%;
-    outline: none;
-    border-radius: 3px;
-    font-size: 17px;
-    border-color: #fff;
-    background:transparent;
+.form-container > form > textarea {
+  margin-top: 2rem;
+  width: 100%;
+  outline: none;
+  border-radius: 3px;
+  font-size: 17px;
+  border-color: #fff;
+  background: transparent;
 }
-.form-container > form ::placeholder{
-    color: #fff;
-    padding-left: 1rem;
+.form-container > form ::placeholder {
+  color: #fff;
+  padding-left: 1rem;
 }
 .contact h2 {
-    text-align: center;
-    color: whitesmoke;
-    padding: 2rem;
+  text-align: center;
+  color: whitesmoke;
+  padding: 2rem;
 }
-footer{
-    text-align: center;
-    font-weight: bolder;
-
+footer {
+  text-align: center;
+  font-weight: bolder;
 }
-.footer-icons{
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
 }
 
 /* Responsive mobile */
-@media screen  and (max-width: 576px) {
-    .design {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        padding: 1rem;    
-    }
-    .portfolio {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        place-items: center;
-        gap: 1.5rem;
-        margin: 1rem auto;
-    }
+@media screen and (max-width: 576px) {
+  .design {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    gap: 1.5rem;
+    margin: 1rem auto;
+  }
 }
