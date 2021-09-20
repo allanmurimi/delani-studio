@@ -159,6 +159,12 @@
   border-color: #fff;
   background: transparent;
 }
+.form-container form button {
+  background-color: #fff;
+  font-size: 18px;
+ outline: none;
+ border-radius: 10px;
+}
 .form-container > form ::placeholder {
   color: #fff;
   padding-left: 1rem;
