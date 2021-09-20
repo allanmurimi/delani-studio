@@ -67,9 +67,11 @@
   text-align: center;
   margin: 2rem auto;
 }
-.what-img {
+.what-img-1,
+.what-img-2,
+.what-img-3 {
   width: 342px;
-  transition: .5s ease;
+  transition: 0.5s ease;
   cursor: pointer;
 }
 .what-content-1,
@@ -94,20 +96,35 @@
 .portfolio div img {
   height: 205px;
 }
-.portfolio-img {
+.portfolio-img-0,
+.portfolio-img-00,
+.portfolio-img-1,
+.portfolio-img-2,
+.portfolio-img-3,
+.portfolio-img-4 {
   position: relative;
 }
-.content-img {
+.content-img-0,
+.content-img-00,
+.content-img-1,
+.content-img-2,
+.content-img-3,
+.content-img-4 {
   position: absolute;
   left: 25%;
   top: 25%;
   display: none;
   width: 100px;
   height: 100px;
-  transition: .5s ease-in;
+  transition: 0.5s ease-in;
   border: 3px solid #fff;
 }
-.content-img span {
+.content-img-0,
+.content-img-00,
+.content-img-1,
+.content-img-2,
+.content-img-3,
+.content-img-4 span {
   color: #fff;
   font-size: 1.5rem;
   text-align: center;
